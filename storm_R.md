@@ -6,7 +6,7 @@ Nicolas Corneau-Tremblay
 Synopsis
 --------
 
-This report presents an analysis of the human and economic consequences of severe weather events in the United States. It is based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database from 1950 to 2011. For each weather event type, total fatalities, total injuries and total economic costs were obtain over the entire period. As results, tornados were found to be responsible for the larger human consequences while floods are responsible for the larger economic costs.
+This report presents an analysis of the human and economic consequences of severe weather events in the United States. It is based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database from 1950 to 2011. For each weather event type, total fatalities, total injuries and total economic costs were obtained over the entire period. As results, tornados were found to be responsible for the larger human consequences while floods are responsible for the larger economic costs.
 
 Data processing
 ---------------
