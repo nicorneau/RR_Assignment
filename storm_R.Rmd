@@ -7,11 +7,11 @@ output: github_document
 ---
 
 ## Synopsis
-This report presents an analysis of the human and economic consequences of severe weather events in the United States. It is based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database from 1950 to 2011. For each weather event type, total fatalities, total injuries and total economic costs were obtained over the entire period. As results, tornados were found to be responsible for the larger human consequences while floods are responsible for the larger economic costs.
+This report presents analyses of the human and economic consequences of severe weather events in the United States. It is based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database from 1950 to 2011. For each weather event type, total fatalities, total injuries and total economic costs were obtained over the entire period. As results, tornados were found to be responsible for the larger human health consequences while floods were responsible for the larger economic costs.
 
 
 ## Data processing
-This section presents the data manipulations conducted for the analysis. The analysis are based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. There were conducted using the following packages :
+This section presents the data manipulations conducted in the analyses. They were based on U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. There were conducted using the following packages :
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -134,12 +134,4 @@ economic %>%
 ```
 
 
-```{r echo=FALSE}
-##Question
-
-##criteria
-#1 - Has either a (1) valid RPubs URL pointing to a data analysis document for this assignment been submitted; or (2) a #   complete PDF file presenting the data analysis been uploaded?
-#4 - Does the document have a title that briefly summarizes the data analysis?
-
-```
 
