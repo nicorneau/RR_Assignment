@@ -1,0 +1,8 @@
+name: Publish Document
+title:
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/298414/56ba6733c9ad402694e1f9bfb61ac54f
+bundleId: https://api.rpubs.com/api/v1/document/298414/56ba6733c9ad402694e1f9bfb61ac54f
+url: http://rpubs.com/nicorneau/298414/edit
+when: 1502368752.10172
