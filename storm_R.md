@@ -31,7 +31,7 @@ weather <- weather %>%
     mutate(event = tolower(factor(evtype, levels = unique(evtype))))
 ```
 
-To investigate the impact of severe weather events on human health, the total of fatalities and injuries resulting from each event were taken over the entire period of observation. This statistic was prefered because it captures both the effects of frequency of each event type and the dommage associated with each episode.
+To investigate the impact of severe weather events on human health, the total fatalities and injuries resulting from each event were calculated over the entire period of observation. This statistic was prefered because it captures both the effects of frequency of each event type and the dommage associated with each episode.
 
 ``` r
 health <- weather %>%
@@ -41,7 +41,7 @@ health <- weather %>%
               count = n())
 ```
 
-For the economic consequences of severe weather events, the property and crop damages were for converted in US$. The two variables were then summed to obtain the total economic costs resulting from each weather event type. Again, this statistic gives which severe weather event is the most costly for the U.S., regarless of it frequency.
+For economic consequences of severe weather events, property and crop damages were converted in US$. The two variables were then summed to obtain the total economic costs resulting from each weather event type. Again, this statistic gives which severe weather event is the most costly for the U.S., regarless of its frequency.
 
 ``` r
 weather <- weather %>%
@@ -69,7 +69,7 @@ Results
 
 The main results of this report are presented in this section.
 
-For the human consequences, tornados turned out to be responsible both for the larger number of fatalities and the larger number of injuries, as it is possible to see in the following barplots.
+Regarding human health consequences, tornados turned out to be responsible both for the larger number of fatalities and the larger number of injuries, as it is possible to see in the following barplots.
 
 ``` r
 health %>%
@@ -105,7 +105,7 @@ health %>%
 
 ![](storm_R_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
-For the economic consequences, floods were responsible for the larger economic costs (property and crop), as it is displayed in the following barplot.
+For economic consequences, floods were responsible for the larger economic costs (property and crop), as it is displayed in the following graph.
 
 ``` r
 economic %>%
